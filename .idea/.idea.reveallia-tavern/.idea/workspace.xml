@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e554b1e8-475f-4f78-a056-d006284e83f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.reveallia-tavern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reveallia-tavern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/M Studio/Colourful Hierarchy Category GameObject/Color Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/M Studio/Colourful Hierarchy Category GameObject/Color Palette.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/DemoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/character.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/character.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Customer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Customer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tavern.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tavern.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a0ef999f3dd04e25ac8cae620d27f2e59c00/94/2a3f94e9/CharacterInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3981d658666ec9cc1e6958fe22f8614bfe02ccb6625b056c3ece3729c9262/JsonConvert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/AllEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CustomerManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -107,7 +109,7 @@
       <updated>1752329064878</updated>
       <workItem from="1752329066306" duration="5823000" />
       <workItem from="1752348072077" duration="6491000" />
-      <workItem from="1752399073955" duration="7263000" />
+      <workItem from="1752399073955" duration="12251000" />
     </task>
     <servers />
   </component>

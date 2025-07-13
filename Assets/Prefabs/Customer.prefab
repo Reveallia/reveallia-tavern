@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3599263608315670774}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1199999, y: -1.3100004, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
@@ -102,6 +102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterData: {fileID: 0}
   SpriteRenderer: {fileID: 2592204205169753524}
+  BreatheScaleOffset: {x: 0.02, y: 0.04}
+  BreatheSpeed: 2
   currentState: 0
   OnStateChanged:
     m_PersistentCalls:
