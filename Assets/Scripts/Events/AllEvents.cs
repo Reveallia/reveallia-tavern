@@ -15,15 +15,46 @@ namespace Events
     [JsonConverter(typeof(DestinationStatusChangedConverter))]
     public struct DestinationStatusChanged
     {
-        public Customer Customer;
+        public Character Character;
         public CharacterDestination Destination;
         public ProgressState Progress;
         
-        public DestinationStatusChanged(Customer customer, CharacterDestination destination, ProgressState progress)
+        public DestinationStatusChanged(Customer character, CharacterDestination destination, ProgressState progress)
         {
-            Customer = customer;
+            Character = character;
             Destination = destination;
             Progress = progress;
+        }
+
+        public bool IsCustomer()
+        {
+            return Character is Customer;
+        }
+
+        public bool IsReceptionCompleted()
+        {
+            return Destination == CharacterDestination.Reception && Progress == ProgressState.Completed;
+        }
+    }
+    
+    [Serializable]
+    public struct OrderPublished
+    {
+        public string OrderId;
+    
+        public OrderPublished(Order order)
+        {
+            OrderId = order.OrderId;
+        }
+    }
+    
+    public struct OrderAccepted
+    {
+        public string OrderId;
+
+        public OrderAccepted(Order order)
+        {
+            OrderId = order.OrderId;
         }
     }
     
@@ -33,7 +64,7 @@ namespace Events
         {
             writer.WriteStartObject();
             writer.WritePropertyName("CharacterName");
-            serializer.Serialize(writer, value.Customer.CharacterData.CharacterName);
+            serializer.Serialize(writer, value.Character.CharacterData.CharacterName);
             writer.WritePropertyName("Destination");
             serializer.Serialize(writer, value.Destination);
             writer.WritePropertyName("Progress");

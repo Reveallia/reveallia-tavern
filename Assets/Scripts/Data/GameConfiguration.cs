@@ -22,6 +22,9 @@ namespace Data
                 Destroy(gameObject);
             }
         }
+
+        [BoxGroup("General Settings")] public float DayDuration = 15f;//60f * 5f;
+        [BoxGroup("General Settings")] public float NightDuration = 15f;//60f * 5f;
         
         [BoxGroup("Customer Settings")] public float Speed;
         [BoxGroup("Customer Settings")] [ReorderableList] public List<DestinationData> Destinations;

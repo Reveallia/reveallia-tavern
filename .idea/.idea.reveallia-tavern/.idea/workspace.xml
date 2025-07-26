@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e554b1e8-475f-4f78-a056-d006284e83f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/character.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/character.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Customer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Customer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.reveallia-tavern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reveallia-tavern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/M Studio/Colourful Hierarchy Category GameObject/Color Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/M Studio/Colourful Hierarchy Category GameObject/Color Palette.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tavern.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tavern.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CustomerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CustomerFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/EntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/EntryPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/AllEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/AllEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/CustomerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/CustomerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/DayCycleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/DayCycleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManagerContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManagerContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +120,8 @@
       <workItem from="1752329066306" duration="5823000" />
       <workItem from="1752348072077" duration="6491000" />
       <workItem from="1752399073955" duration="12251000" />
+      <workItem from="1752434509899" duration="2972000" />
+      <workItem from="1752520543932" duration="4280000" />
     </task>
     <servers />
   </component>

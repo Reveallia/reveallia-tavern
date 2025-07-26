@@ -6,5 +6,6 @@ namespace Managers
     {
         public static CustomerManager CustomerManager;
         public static DayCycleManager DayCycleManager;
+        public static TablesManager TablesManager;
     }
 }

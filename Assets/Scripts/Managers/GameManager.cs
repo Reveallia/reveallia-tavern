@@ -31,12 +31,15 @@ namespace Managers
             
             var customerManager = new CustomerManager();
             var dayCycleManager = new DayCycleManager();
+            var tablesManager = new TablesManager();
             
             GameManagerContext.CustomerManager = customerManager;
             GameManagerContext.DayCycleManager = dayCycleManager;
+            GameManagerContext.TablesManager = tablesManager;
             
             _components.Add(customerManager);
             _components.Add(dayCycleManager);
+            _components.Add(tablesManager);
             
             foreach (var component in _components)
             {

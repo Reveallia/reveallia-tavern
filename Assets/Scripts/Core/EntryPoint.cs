@@ -1,5 +1,6 @@
 using Managers;
 using Tools;
+using UI;
 using UnityEngine;
 
 namespace Core
@@ -12,6 +13,7 @@ namespace Core
         {
             CustomLogger.LogGameLoop("EntryPoint.Start");
             GameManager.Initialize();
+            GameUI.Instance.Initialize();
         }
     }
 }

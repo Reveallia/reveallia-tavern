@@ -121,13 +121,14 @@ namespace Core
         {
             // Базові характеристики
             customer.Initialize(template);
-            
+
+
             // Модифікація залежно від контексту
             //ApplyContextModifiers(customer, template, context);
-            
+
             // Випадкові варіації
             //ApplyRandomVariations(customer, template);
-            
+
             // Налаштування візуальних елементів
             //ConfigureVisualElements(customer, template);
         }

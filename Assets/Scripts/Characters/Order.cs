@@ -5,11 +5,19 @@ namespace Characters
     [System.Serializable]
     public class Order
     {
-        // public string orderId;
-        // public Recipe recipe;
-        // public float basePrice;
-        // public float timeLimit;
-        // public List<IngredientRequirement> requiredIngredients;
+        public string OrderId;
+        public Customer Customer;
+        //public Recipe recipe;
+        public float BasePrice;
+
+        public Order(Customer customer)
+        {
+            OrderId = System.Guid.NewGuid().ToString();
+            Customer = customer;
+            BasePrice = 10f;
+        }
+        
+        //public List<IngredientRequirement> requiredIngredients;
         // public OrderPriority priority;
         //
         // public Order(Recipe recipe)
